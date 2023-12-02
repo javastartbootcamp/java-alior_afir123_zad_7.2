@@ -11,8 +11,7 @@ public class Control {
     static void saveNumbers(Scanner scanner, ArrayList<Integer> list, int userInput) {
         do {
             list.add(userInput);
-        }
-        while ((userInput = scanner.nextInt()) > 0);
+        } while ((userInput = scanner.nextInt()) > 0);
     }
 
     static void printReverse(ArrayList<Integer> list) {
