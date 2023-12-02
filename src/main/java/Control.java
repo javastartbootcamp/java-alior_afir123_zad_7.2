@@ -9,7 +9,9 @@ public class Control {
     }
 
     static void saveNumbers(Scanner scanner, ArrayList<Integer> list, int userInput) {
-        do list.add(userInput);
+        do {
+            list.add(userInput);
+        }
         while ((userInput = scanner.nextInt()) > 0);
     }
 
